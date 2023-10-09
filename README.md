@@ -1,6 +1,6 @@
 # Gerenciamento de estado com React Query
 
-Esse repo contém o código referente à minha publicação no LinkedIn sobre gerenciamento de estado.
+Esse repo contém o código referente à minha [publicação no LinkedIn](https://www.linkedin.com/posts/ikaro-souza-b5a375174_gerenciamento-de-estado-activity-7117296989062467585-WUPi?utm_source=share&utm_medium=member_desktop) sobre gerenciamento de estado.
 
 ## Como rodar o app
 
@@ -26,7 +26,7 @@ Com pnpm
 pnpm install;
 ```
 
-### Execute a aplicação;
+### Execute a aplicação
 
 Você vai precisar abrir 2 terminais, um para rodar o next e o outro para rodar o servidor local da api.
 
