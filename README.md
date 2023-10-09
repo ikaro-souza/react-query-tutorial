@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gerenciamento de estado com React Query
 
-## Getting Started
+Esse repo contém o código referente à minha publicação no LinkedIn sobre gerenciamento de estado.
 
-First, run the development server:
+## Como rodar o app
+
+Eu uso o pnpm como gerenciador de pacotes, mas fique livre para o usar o seu favorito.
+
+### Instale as dependências
+
+Com npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install;
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Com yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn;
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Com pnpm
 
-## Learn More
+```bash
+pnpm install;
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Execute a aplicação;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Você vai precisar abrir 2 terminais, um para rodar o next e o outro para rodar o servidor local da api.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### Para rodar o next:
 
-## Deploy on Vercel
+Com npm
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run dev;
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Com yarn
+
+```bash
+yarn dev;
+```
+
+Com pnpm
+
+```bash
+pnpm dev;
+```
+
+#### Para rodar o servidor local da api:
+
+Com npm
+
+```bash
+npm run dev:api;
+```
+
+Com yarn
+
+```bash
+yarn dev:api;
+```
+
+Com pnpm
+
+```bash
+pnpm dev:api;
+```
